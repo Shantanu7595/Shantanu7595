@@ -1,0 +1,159 @@
+body{
+  font-family:"Montserrat";
+}
+#title{
+  background-color: #81F5FF;
+  padding: 0 15%;
+  font-size: 1.4rem;
+}
+.container-fluid{
+  padding : 1% 15% 7%;
+}
+h1{
+  font-family: Montserrat;
+  size: 6rem;
+  line-height: 5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+}
+h3{
+  font-family:Montserrat;
+}
+p{
+  color: gray;
+}
+.row{
+  padding-top: 2%;
+}
+.meet{
+  padding: 10% 0;
+  font-size: 3.5rem;
+}
+.navbar{
+  padding: 0 0 4rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 20px;
+}
+.tindog{
+  color: #FE346E;
+  font-size: 2.3rem;
+  padding-top: 10px;
+  padding-right: 400px;
+}
+.btn{
+  margin: 5% 3% 5% 0;
+}
+/* image */
+.title-img{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left:55%;
+}
+/* features */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.col-lg-4{
+  text-align: center;
+  padding: 5%;
+}
+.fas{
+  color: #FE346E;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #00ADB5;
+}
+/* testimonials */
+#testimonials{
+
+  background-color: #FE346E;
+  color: #fff;
+  text-align: center;
+}
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.dog{
+  font-size: 3rem;
+  line-height: 4rem;
+}
+/* Press */
+#press{
+  background-color: #81F5FF;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.row{
+  margin-top: 0;
+  padding-top: 0;
+
+}
+.col-lg-4{
+  padding: 3% 2%;
+}
+/* footer */
+#cta{
+  text-align: center;
+
+  background-color: #FE346E;
+  padding: 6% 15%;
+}
+.footer{
+  font-size: 3rem;
+}
+#footer{
+  text-align: center;
+  font-size: 2rem;
+  padding: 5% 5% 2%;
+}
+.foot-icon{
+  padding: 2%;
+  color: gray;
+}
+.foot-icon:hover{
+  color:  #FE346E;
+}
+.Copyright{
+  font-size: 1rem;
+}
+
+/* @media query */
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+.title-img{
+  width: 60%;
+  position: static;
+  transform: rotate(0);
+}
+}
